@@ -11,8 +11,19 @@ namespace Day4A_PracticeProblem
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Day 4A Practice Problem");
+            Console.WriteLine("Select any one Option for Opreration");
+            Console.WriteLine("\n 1. For Nlog Example \n 2. CURD operation in ArrayList collection.");
+            int option = Convert.ToInt32(Console.ReadLine());
+            switch (option)
+            {
+                case 1:
+                    ArithmaticOperation.Sum(20, 50);
+                    break;
+                case 2:
+                    CURD_ArrayList.ArrayList();
+                    break;
 
-            ArithmaticOperation.Sum(20, 50);
+            }
         }
     }
 }
