@@ -12,7 +12,7 @@ namespace Day4A_PracticeProblem
         {
             Console.WriteLine("Welcome to Day 4A Practice Problem");
             Console.WriteLine("Select any one Option for Opreration");
-            Console.WriteLine("\n 1. For Nlog Example \n 2. CURD operation in ArrayList collection.");
+            Console.WriteLine("\n 1. For Nlog Example \n 2. CURD operation in ArrayList collection \n 3. CURD operation in Dictionary");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -21,6 +21,9 @@ namespace Day4A_PracticeProblem
                     break;
                 case 2:
                     CURD_ArrayList.ArrayList();
+                    break;
+                case 3:
+                    Dictionary.CURDoperationINDictionary();
                     break;
 
             }
