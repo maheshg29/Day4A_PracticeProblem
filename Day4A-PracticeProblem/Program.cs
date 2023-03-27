@@ -11,6 +11,8 @@ namespace Day4A_PracticeProblem
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Day 4A Practice Problem");
+
+            ArithmaticOperation.Sum(20, 50);
         }
     }
 }
